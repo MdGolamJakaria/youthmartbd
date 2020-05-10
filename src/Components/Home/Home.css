@@ -1,0 +1,16 @@
+.dash-card {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+}
+.dash-card-info {
+  text-transform: uppercase;
+}
+.dash-card-info span {
+  font-size: 45px;
+  font-weight: 600;
+}
+.dash-card-info p {
+  font-size: 16px;
+  font-weight: 600;
+}
