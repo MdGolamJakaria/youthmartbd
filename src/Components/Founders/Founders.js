@@ -1,10 +1,20 @@
-import React from "react";
-
+import React, { useState } from "react";
+import FoundersInfo from "../../fackData/foundersData";
+import Founder from "../Founder/Founder";
 const Founders = () => {
+  const [founders, setFounders] = useState(FoundersInfo);
+  console.log(founders);
   return (
     <div>
       <div className="container">
-        <h1>This is founders Section</h1>
+        <div className="row">
+          <h2>Founders:</h2>
+        </div>
+        <div className="row">
+          {founders.map((fd) => (
+            <Founder founder={fd}></Founder>
+          ))}
+        </div>
       </div>
     </div>
   );

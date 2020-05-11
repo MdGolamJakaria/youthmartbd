@@ -1,9 +1,17 @@
-import React from "./node_modules/react";
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./DashData.css";
 
-const DashData = () => {
+const DashData = (props) => {
+  //console.log(props.data.name);
   return (
-    <div>
-      <h1>this is dash Data</h1>
+    <div className="col-3 box">
+      <div className="data">
+        <br/>
+        <h1>{props.data.amount}</h1>
+        <h6>{props.data.name}</h6>
+        <br/>
+      </div>
     </div>
   );
 };
