@@ -12,7 +12,7 @@ const Founders = () => {
         </div>
         <div className="row">
           {founders.map((fd) => (
-            <Founder founder={fd}></Founder>
+            <Founder key={fd.id} founder={fd}></Founder>
           ))}
         </div>
       </div>

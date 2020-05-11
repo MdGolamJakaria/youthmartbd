@@ -19,7 +19,7 @@ const Home = () => {
 
         <div className="row">
           {dashBoardData.map((info) => (
-            <DashData data={info}></DashData>
+            <DashData key={info.id} data={info}></DashData>
           ))}
         </div>
         <div className="row">

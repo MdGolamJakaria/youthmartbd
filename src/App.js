@@ -33,6 +33,12 @@ function App() {
           <Route path="/employees">
             <Employees></Employees>
           </Route>
+          <Route path="/">
+            <Home></Home>
+          </Route>
+          <Route path="*">
+            <Home></Home>
+          </Route>
         </Switch>
       </Router>
     </div>
