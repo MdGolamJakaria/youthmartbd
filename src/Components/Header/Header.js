@@ -1,7 +1,7 @@
 import React from "react";
 import "../Header/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import Account from "../Account/Account";
 
 const Header = () => {
   return (
