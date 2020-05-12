@@ -1,8 +1,7 @@
 import React from "react";
 import "../Header/Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Account from "../Account/Account";
-
+import logo from "../../images/logo.png";
 const Header = () => {
   return (
     <div>
@@ -21,9 +20,11 @@ const Header = () => {
       <div className="container">
         <div className="row main-menu">
           <div className="col-3">
-            <h4>Logo</h4>
+            <a href="/home">
+              <img className="logo" src={logo} alt="Youth Mart" />
+            </a>
           </div>
-          <div className="menu-bar col-9 d-flex justify-content-end">
+          <div className="menu-bar col-9 d-flex justify-content-end align-items-center">
             <a className="menu" href="/home">
               Home
             </a>

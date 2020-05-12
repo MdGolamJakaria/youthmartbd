@@ -1,15 +1,18 @@
 nav {
   background-color: orange;
 }
-.small-nav{
+.small-nav {
   color: white;
-  
+}
+.logo {
+  width: 80px;
+  padding: 10px 0px;
 }
 .main-menu {
   background-color: gainsboro;
 }
 .menu {
-  padding: 10px 5px;
+  padding:10px 10px;
   text-decoration: none !important;
   text-transform: capitalize;
   background-color: gainsboro;
@@ -19,4 +22,5 @@ nav {
 a.menu:hover {
   background-color: orange !important;
   color: white;
+  border-radius: 5px;
 }
