@@ -9,6 +9,15 @@ const nirob =
 const miraz =
   "https://images.pexels.com/photos/412840/pexels-photo-412840.jpeg";
 
+const jakariaNomineImage =
+  "https://images.pexels.com/photos/3393375/pexels-photo-3393375.jpeg";
+const FahimNomineImage =
+  "https://images.pexels.com/photos/3393375/pexels-photo-3393375.jpeg";
+const NirobNomineImage =
+  "https://images.pexels.com/photos/3393375/pexels-photo-3393375.jpeg";
+const MirazNomineImage =
+  "https://images.pexels.com/photos/3393375/pexels-photo-3393375.jpeg";
+
 const foundersData = [
   {
     id: 1,
@@ -25,19 +34,18 @@ const foundersData = [
     motherName: "Halima Akter",
     motherNidNumber: "6817684464802",
     maritalStatus: "unmarrid",
-    wifeName: "",
+    wifeName: "None",
     wifeNidNumber: "",
     birth: "10/12/1999",
     birthCertificateNumber: "19996817684100793",
     nidNumber: "8254694337",
     passportNumber: "BX0582352",
-    presentAddress:
-      "253, West Agargaon, Sher-e-Bangla Nagor, Dhaka-1207, Banglaesh",
+    presentAddress: "253, West Agargaon, Sher-e-Bangla Nagor, Dhaka-1207",
     permanentAddress:
-      "Vill: Kumradi, PO: Kumradi, PS: Shibpur, Dist: Narsingdi, Bangladesh",
+      "Vill: Kumradi, PO: Kumradi, PS: Shibpur, Dist: Narsingdi.",
     nomineName: "Abdul Mannan Khan",
     nomineRelation: "Father",
-    nomineImage: "",
+    nomineImage: jakariaNomineImage,
     nominePhone: "01903571392",
   },
   {
@@ -65,7 +73,7 @@ const foundersData = [
     permanentAddress: "66/3, UMC Road, Sathirpara, Narsingdi sadar, Narsingdi",
     nomineName: "Sanjida Akter",
     nomineRelation: "Sister",
-    nomineImage: "",
+    nomineImage: FahimNomineImage,
     nominePhone: "01638735056",
   },
   {
@@ -121,7 +129,7 @@ const foundersData = [
     permanentAddress: "309/3, South Sathirpara, Narsingdi Sadar, Narsingdi",
     nomineName: "Samyo Das Syumik",
     nomineRelation: "Brother",
-    nomineImage: "",
+    nomineImage: NirobNomineImage,
     nominePhone: "pending",
   },
   {
@@ -149,7 +157,7 @@ const foundersData = [
     permanentAddress: "210/9, Basail, Narsingdi Sadar, Narsingdi, Bangladesh",
     nomineName: "Ajharul hoq",
     nomineRelation: "father",
-    nomineImage: "",
+    nomineImage: MirazNomineImage,
     nominePhone: "01817535421",
   },
 ];

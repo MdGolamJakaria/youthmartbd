@@ -3,7 +3,7 @@ import FoundersInfo from "../../fackData/foundersData";
 import Founder from "../Founder/Founder";
 const Founders = () => {
   const [founders, setFounders] = useState(FoundersInfo);
-  console.log(founders);
+  // console.log(founders);
   return (
     <div>
       <div className="container">

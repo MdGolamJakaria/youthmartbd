@@ -1,6 +1,19 @@
 img {
   width: 100%;
 }
-.founder-box{
-    margin-top: 10%;
+.founder-box {
+  margin-top: 10%;
+  padding: 10px;
+  transition: 0.5s;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.288);
+  border-radius: 5px;
+}
+.founder-box:hover {
+  box-shadow: 1px 1px 10px orange;
+}
+.nomine-image {
+  width: 50%;
+  display: block;
+  padding: 10px;
+  box-shadow: 1px 1px 10px black;
 }

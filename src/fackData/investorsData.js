@@ -1,5 +1,7 @@
 const miraz =
   "https://images.pexels.com/photos/412840/pexels-photo-412840.jpeg";
+const mirazNomineImage =
+  "https://images.pexels.com/photos/35183/people-homeless-man-male.jpg";
 
 const investorsData = [
   {
@@ -10,17 +12,17 @@ const investorsData = [
     investAmount: 50000,
     investDate: "01/02/2020",
     profitpercentage: 0.2,
-    altranetiveDesignetion: "CAO",
+    altranetiveDesignetion: "Cao",
     bio: "BLA BLA BLA BLA",
     phone: "01688017557",
-    homeNum: "01817535421",
+    homeNumber: "01817535421",
     email: "akashhq96@gmail.com",
     fatherName: "Ajharul Haq",
     fatherNidnumber: "Pending",
     motherName: "Umme Kulsum Khanom",
     motherNidNumber: "Pending",
     maritalStatus: "unmarrid",
-    wifeName: "",
+    wifeName: "Khadija",
     wifeNidNumber: "",
     birth: "11/12/1998",
     birthCertificateNumber: "Pending",
@@ -30,7 +32,7 @@ const investorsData = [
     permanentAddress: "210/9, Basail, Narsingdi Sadar, Narsingdi, Bangladesh",
     nomineName: "Ajharul hoq",
     nomineRelation: "father",
-    nomineImage: "",
+    nomineImage: mirazNomineImage,
     nominePhone: "01817535421",
   },
 ];
