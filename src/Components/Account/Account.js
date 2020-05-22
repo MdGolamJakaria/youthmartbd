@@ -1,9 +1,10 @@
 import React from "react";
+import Login from "./Login/Login";
 
 const Account = () => {
   return (
     <div>
-      <h1>this is account section.</h1>
+      <Login></Login>
     </div>
   );
 };

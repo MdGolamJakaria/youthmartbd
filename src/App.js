@@ -8,6 +8,8 @@ import Shops from "./Components/Shops/Shops";
 import Products from "./Components/Products/Products";
 import Employees from "./Components/Employees/Employees";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Account from "./Components/Account/Account";
+import RegisterForm from "./Components/Account/CreateAccount/RegisterForm/RegisterForm";
 
 function App() {
   return (
@@ -15,6 +17,12 @@ function App() {
       <Header></Header>
       <Router>
         <Switch>
+          <Route path="/account">
+            <Account></Account>
+          </Route>
+          <Route path="/createaccount">
+            <RegisterForm></RegisterForm>
+          </Route>
           <Route path="/home">
             <Home></Home>
           </Route>
